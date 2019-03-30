@@ -1,7 +1,10 @@
 # Learning Rust
 Material I come across which is benefitial to read through to learn the language
 
-# Rust Overview
+---
+#Index 
+
+## Rust Overview
 1. [General Overview](#general-overview)
 2. [Rust Features](#rust-features)  
     2.1 [Traits](#traits)  
@@ -23,7 +26,7 @@ Material I come across which is benefitial to read through to learn the language
 7. [General Tinker](#general-tinker)
 8. [Long form and General Knowledge](#long-form-and-general-knowledge)
 
-# Rust Asnyc/Web
+## Rust Asnyc/Web
 1. [Async](#async)
 2. [Concurrency](#concurrency)
 3. [Futures](#libraries)
@@ -35,13 +38,14 @@ Material I come across which is benefitial to read through to learn the language
 9. [Async Tinker](#async-tinker)
 10. [Insight in other languages](#insight-in-other-languages)
 
-# General Overview
+---
+## General Overview
 * [Rust for High-Level Programming Language Developers – IQDevs – Technology Excellence Redefined](https://iqdevs.github.io/Rust-for-High-Level-Programming-Language-Developers/)
 * [Learning-Rust/main.rs at master · Mathieu-Desrochers/Learning-Rust · GitHub](https://github.com/Mathieu-Desrochers/Learning-Rust/blob/master/src/main.rs)
 * [Oxide : The Essence of Rust](https://arxiv.org/pdf/1903.00982.pdf)
 * [Structure literals vs constructors in Rust](https://words.steveklabnik.com/structure-literals-vs-constructors-in-rust)
 
-# Rust Features
+## Rust Features
 ### Traits
 * [Rust: Traits – | ?- BlogName = _.](https://gillesleblanc.wordpress.com/2014/11/21/rust-traits/)
 * [Abstraction without overhead: traits in Rust - The Rust Programming Language Blog](https://blog.rust-lang.org/2015/05/11/traits.html)
@@ -80,7 +84,7 @@ Material I come across which is benefitial to read through to learn the language
 ### Cargo
 * [Matthias Endler](https://matthias-endler.de/2018/cargo-inspect/)
 
-# Specific Knowledge
+## Specific Knowledge
 ### Iterator
 * [std::iter::Iterator - Rust](https://doc.rust-lang.org/std/iter/trait.Iterator.html)
 
@@ -121,8 +125,6 @@ Material I come across which is benefitial to read through to learn the language
 * [Scientific computing: a Rust adventure Part 1 - Zero-cost abstractions](https://www.lpalmieri.com/posts/2019-03-12-scientific-computing-a-rust-adventure-part-1-zero-cost-abstractions/)
 * [Green Threads are like Garbage Collection](https://www.fpcomplete.com/blog/2017/01/green-threads-are-like-garbage-collection)
 * [Test harness - Wikipedia](https://en.wikipedia.org/wiki/Test_harness)
-
-# Asnyc/Web
 
 ## Async
 * [RFC: stabilize `std::task` and `std::future::Future`](https://github.com/rust-lang/rfcs/pull/2592)
