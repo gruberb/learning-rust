@@ -1,5 +1,39 @@
 # Learning Rust
-Material I come across which is benefitial in reading through to learn the language
+Material I come across which is benefitial to read through to learn the language
+
+# Rust Overview
+1. [General Overview](#general-overview)
+2. [Rust Features](#rust-features)
+    2.1 [Traits](#traits)
+    2.2 [Types](#types)
+    2.3 [Associated Types](#associated-types)
+    2.4 [Closures](#closures)
+    2.5 [Ownership](#ownership)
+    2.6 [Allocation and Memory](#allocation-and-lifetimes)
+    2.7 [Lifetimes](#lifetimes)
+    2.8 [Macros](#maros)
+    2.9 [Cargo](#cargo)
+3. [Specific Knowledge](#specific-knowledge)
+    3.1 [Iterator](#iterator)
+    3.2 [Options](#options)
+    3.3 [Documentation Testing](#documentation-testing)
+4. [Tutorials](#tutorials)
+5. [Talks](#talks)
+6. [Project Ideas](#project-ideas)
+7. [General Tinker](#general-tinker)
+8. [Long form and General Knowledge](#long-form-and-general-knowledge)
+
+# Rust Asnyc/Web
+1. [Async](#async)
+2. [Concurrency](#concurrency)
+3. [Futures](#libraries)
+4. [Libraries](#libraries)
+5. [Tide](#tide)
+6. [Interesting Projects](#interesting-projects)
+7. [Specific Knowledge](#specific-knowledge)
+8. [General Web and Async KnowHow](#general-web-and-async-knowhow)
+9. [Async Tinker](#async-tinker)
+10. [Insight in other languages](#insight-in-other-languages)
 
 # General Overview
 * [Rust for High-Level Programming Language Developers – IQDevs – Technology Excellence Redefined](https://iqdevs.github.io/Rust-for-High-Level-Programming-Language-Developers/)
@@ -29,19 +63,19 @@ Material I come across which is benefitial in reading through to learn the langu
 * [Rust: Unlocking Systems Programming](https://www.infoq.com/presentations/rust-thread-safety)
 * [Stacked Borrows Implemented](https://www.ralfj.de/blog/2018/11/16/stacked-borrows-implementation.html)
 
-### Allocation/Memory
+### Allocation and Memory
 * [Allocations in Rust - speice.io](https://speice.io/2019/02/understanding-allocations-in-rust.html)
-
-### Macros
-* [A Practical Intro to Macros in Rust 1.0](https://danielkeep.github.io/practical-intro-to-macros.html)
-* [The Little Book of Rust Macros](https://danielkeep.github.io/tlborm/book/README.html)
-* [Deriving Traits in Rust with Procedural Macros · naftuli.wtf](https://naftuli.wtf/2019/01/02/rust-derive-macros/)
 
 ### Lifetimes
 * [Rust Lifetimes for the Uninitialised](https://asquera.de/blog/2018-01-29/rust-lifetimes-for-the-uninitialised/)
 * [Why can lifetimes not be inferred? - help - The Rust Programming Language Forum](https://users.rust-lang.org/t/why-can-lifetimes-not-be-inferred/25645)
 * [Lifetimes in Rust - Stack Overflow](https://stackoverflow.com/questions/17490716/lifetimes-in-rust?rq=1)
 * [Generic Types, Traits, and Lifetimes - The Rust Programming Language](https://doc.rust-lang.org/book/ch10-00-generics.html)
+
+### Macros
+* [A Practical Intro to Macros in Rust 1.0](https://danielkeep.github.io/practical-intro-to-macros.html)
+* [The Little Book of Rust Macros](https://danielkeep.github.io/tlborm/book/README.html)
+* [Deriving Traits in Rust with Procedural Macros · naftuli.wtf](https://naftuli.wtf/2019/01/02/rust-derive-macros/)
 
 ### Cargo
 * [Matthias Endler](https://matthias-endler.de/2018/cargo-inspect/)
@@ -58,14 +92,14 @@ Material I come across which is benefitial in reading through to learn the langu
 
 ---
 
-### Tutorials
+## Tutorials
 * [Streaming gRPC with Rust – Kevin Hoffman – Medium](https://medium.com/@KevinHoffman/streaming-grpc-with-rust-d978fece5ef6)
 * [Introduction - Learning Rust With Entirely Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/)
 * [Stanford CS140e - Operating Systems](https://github.com/dddrrreee/cs140e-win19)
 * [Implementing TCP in Rust (part 1) - YouTube](https://www.youtube.com/watch?v=bzja9fQWzdA)
 * [Build a cryptocurrency! - Blockchain in Rust #01: Blocks & Hashing - YouTube](https://www.youtube.com/watch?v=vJdT05zl6jk&list=PLwnSaD6BDfXL0RiKT_5nOIdxTxZWpPtAv&index=2&t=0s)
 
-### Talks
+## Talks
 * [Rust - YouTube](https://www.youtube.com/channel/UCaYhcUwRBNscFNUKTjgPFiA/videos)
 * [GOTO 2018 • Zen and the Art of Convincing Your Company to Use Rust • Ashley Williams - YouTube](https://www.youtube.com/watch?feature=youtu.be&v=Pn-1so-Ibsg&app=desktop)
 * [RustConf 2017 - Building Rocket by Sergio Benitez - YouTube](https://www.youtube.com/watch?v=t_FUZ34ahBE&feature=youtu.be)
@@ -73,16 +107,16 @@ Material I come across which is benefitial in reading through to learn the langu
 * [TechCast #108 – Carol Nichols on Rust – Chariot Solutions](https://chariotsolutions.com/podcast/carol-nichols-rust/)
 * [A Case for Oxidation: The Rust Programming Language - YouTube](https://youtu.be/cDFSrVhnZKo)
 
-### Beginner projects
+## Project Ideas
 * [Classic unix utilities make great beginner projects! : rust](https://www.reddit.com/r/rust/comments/b0i625/classic_unix_utilities_make_great_beginner/)
 
-### Tinker/Understand
+## General Tinker
 * [Understand this assembly output](https://godbolt.org/z/SYMUem)
 * [Understand this example code](https://play.rust-lang.org/?version=stable&mode=debug&edition=2018&gist=1ca846311b58545aa1a0c7475360f916)
 * [Rust pattern: Iterating an over a Rc<Vec<T>>](http://smallcultfollowing.com/babysteps/blog/2018/09/02/rust-pattern-iterating-an-over-a-rc-vec-t/)
 * [State Machine Patterns in Rust](https://hoverbear.org/2016/10/12/rust-state-machine-pattern/)
 
-### Long form & General Knowledge
+## Long form and General Knowledge
 * [Scientific computing: a Rust adventure Part 0 - Vectors](https://www.lpalmieri.com/posts/2019-02-23-scientific-computing-a-rust-adventure-part-0-vectors/)
 * [Scientific computing: a Rust adventure Part 1 - Zero-cost abstractions](https://www.lpalmieri.com/posts/2019-03-12-scientific-computing-a-rust-adventure-part-1-zero-cost-abstractions/)
 * [Green Threads are like Garbage Collection](https://www.fpcomplete.com/blog/2017/01/green-threads-are-like-garbage-collection)
@@ -90,20 +124,20 @@ Material I come across which is benefitial in reading through to learn the langu
 
 # Asnyc/Web
 
-### Async
+## Async
 * [RFC: stabilize `std::task` and `std::future::Future`](https://github.com/rust-lang/rfcs/pull/2592)
 * [async/await notation for ergonomic asynchronous IO Pull Request](https://github.com/rust-lang/rfcs/pull/2394/files)
 * [asynchronous - What is the purpose of async/await in Rust?](https://stackoverflow.com/questions/52835725/what-is-the-purpose-of-async-await-in-rust)
 * [The relationship between async libraries in Rust](https://www.jimmycuadra.com/posts/the-relationship-between-async-libraries-in-rust/)
 
-### Concurrency
+## Concurrency
 * [Fearless Concurrency - The Rust Programming Language](https://doc.rust-lang.org/1.30.0/book/second-edition/ch16-00-concurrency.html)
 * [Sending trait objects between threads - help - The Rust Programming Language Forum](https://users.rust-lang.org/t/sending-trait-objects-between-threads/2374)
 * [std::sync::Arc - Rust](https://doc.rust-lang.org/std/sync/struct.Arc.html)
 * [Is Send/Sync special cased? - The Rust Programming Language Forum](https://users.rust-lang.org/t/is-send-sync-special-cased/2355/2)
 * [What is a Thread?](https://www.geeksforgeeks.org/operarting-system-thread/)
 
-### Futures
+## Futures
 * [Async, futures, and tokio - Rust Crash Course lesson 7](https://www.snoyman.com/blog/2018/12/rust-crash-course-07-async-futures-tokio)
 * [Understanding Futures In Rust — Part 1 | Viget](https://www.viget.com/articles/understanding-futures-in-rust-part-1/)
 * [Futures in Rust (and Haskell)](https://slides.com/wraithm/async-io-in-rust-and-haskell/#/)
@@ -111,7 +145,7 @@ Material I come across which is benefitial in reading through to learn the langu
 * [Zero-cost futures in Rust · Aaron Turon](https://aturon.github.io/blog/2016/08/11/futures/)
 
 
-### Libraries
+## Libraries
 * Futures: [Zero-cost asynchronous programming in Rust](https://github.com/rust-lang-nursery/futures-rs)
 * Romio: [Wherefore art thou Romio?](https://boats.gitlab.io/blog/post/romio/) , [GitHub - withoutboats/romio: asynchronous networking primitives](https://github.com/withoutboats/romio)
 * Juliex: [GitHub - withoutboats/juliex](https://github.com/withoutboats/juliex)
@@ -120,7 +154,7 @@ Material I come across which is benefitial in reading through to learn the langu
 * HTTP-Service: [GitHub - rustasync/http-service: Types and traits for http-based services using the latest futures API](https://github.com/rustasync/http-service)
 * Tokio: [Tokio - The asynchronous run-time for the Rust programming language.](https://tokio.rs/)
 
-### Tide
+## Tide
 * [WIP New Tide middleware: Automatic compression handling by kimsnj · Pull Request #117 · rustasync/tide · GitHub](https://github.com/rustasync/tide/pull/117/files)
 * [URL generation · Issue #24 · rustasync/tide · GitHub](https://github.com/rustasync/tide/issues/24)
 * [Logging middleware · Issue #8 · rustasync/tide · GitHub](https://github.com/rustasync/tide/issues/8)
@@ -132,7 +166,7 @@ Material I come across which is benefitial in reading through to learn the langu
 * [Consider using route_recognizer instead of path-table · Issue #141 · rustasync/tide · GitHub](https://github.com/rustasync/tide/issues/141)
 * [Gotham Example](https://github.com/gotham-rs/gotham/edit/master/examples/cookies/introduction/src/main.rs)
 
-### Interesting projects
+## Interesting projects
 * [rust-ipfs-api: Rust crate for interfacing with the IPFS API](https://github.com/gkbrk/rust-ipfs-api)
 * [Radicle 🌱](http://www.radicle.xyz/)
 * [ffsend: Easily and securely share files from the command line](https://github.com/timvisee/ffsend)
@@ -140,21 +174,21 @@ Material I come across which is benefitial in reading through to learn the langu
 * [Ramhorns: Dynamic templates](https://maciej.codes/2019-03-03-ramhorns.html)
 * [May - coroutines in Rust](https://github.com/Xudong-Huang/may)
 
-### Specific Knowledge
+## Specific Knowledge
 * [Tokio Reactor](https://docs.rs/tokio/0.1.18/tokio/reactor/index.html)
 
-### General Web/Async KnowHow
+## General Web and Async KnowHow
 * [The Illustrated TLS 1.3 Connection: Every Byte Explained](https://tls13.ulfheim.net/)
 * [corefx/HttpCorrelationProtocol.md at master · dotnet/corefx · GitHub](https://github.com/dotnet/corefx/blob/master/src/System.Diagnostics.DiagnosticSource/src/HttpCorrelationProtocol.md)
 * [Transport Layer Security - Wikipedia](https://en.wikipedia.org/wiki/Transport_Layer_Security)
 * [Finite-state machine - Wikipedia](https://en.wikipedia.org/wiki/Finite-state_machine)
 * [There is no free lunch](http://www.gotw.ca/publications/concurrency-ddj.htm)
 
-### Tinker/Understand
+## Async Tinker
 * [Sending trait objects between threads](https://users.rust-lang.org/t/sending-trait-objects-between-threads/2374)
 * [Event Stream in AWS Lambda](https://github.com/awslabs/aws-lambda-rust-runtime/blob/7aad06ad0a9c814a697202dff77ba293aa32dc62/lambda-runtime-client-simple/src/lib.rs#L155)
 * [How do I use asnyc/await syntax in Tokio?](https://stackoverflow.com/questions/54853917/how-do-i-use-async-await-syntax-with-tokio)
 
-### Insight in other languges
+## Insight in other languages
 * [Go concurrency](https://tour.golang.org/concurrency/2)
 * [Object Streams in NodeJS](https://community.risingstack.com/the-definitive-guide-to-object-streams-in-node-js/)
