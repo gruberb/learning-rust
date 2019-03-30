@@ -86,6 +86,7 @@ Material I come across which is benefitial in reading through to learn the langu
 * [Scientific computing: a Rust adventure Part 0 - Vectors](https://www.lpalmieri.com/posts/2019-02-23-scientific-computing-a-rust-adventure-part-0-vectors/)
 * [Scientific computing: a Rust adventure Part 1 - Zero-cost abstractions](https://www.lpalmieri.com/posts/2019-03-12-scientific-computing-a-rust-adventure-part-1-zero-cost-abstractions/)
 * [Green Threads are like Garbage Collection](https://www.fpcomplete.com/blog/2017/01/green-threads-are-like-garbage-collection)
+* [Test harness - Wikipedia](https://en.wikipedia.org/wiki/Test_harness)
 
 # Asnyc/Web
 
@@ -146,7 +147,6 @@ Material I come across which is benefitial in reading through to learn the langu
 ### General Web KnowHow
 * [The Illustrated TLS 1.3 Connection: Every Byte Explained](https://tls13.ulfheim.net/)
 * [corefx/HttpCorrelationProtocol.md at master · dotnet/corefx · GitHub](https://github.com/dotnet/corefx/blob/master/src/System.Diagnostics.DiagnosticSource/src/HttpCorrelationProtocol.md)
-* [Test harness - Wikipedia](https://en.wikipedia.org/wiki/Test_harness)
 * [Transport Layer Security - Wikipedia](https://en.wikipedia.org/wiki/Transport_Layer_Security)
 * [Finite-state machine - Wikipedia](https://en.wikipedia.org/wiki/Finite-state_machine)
 * [There is no free lunch](http://www.gotw.ca/publications/concurrency-ddj.htm)
