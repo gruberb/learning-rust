@@ -29,7 +29,7 @@ Material I come across which is benefitial to read through to learn the language
 ## Rust Asnyc/Web
 1. [Async](#async)
 2. [Concurrency](#concurrency)
-3. [Futures](#libraries)
+3. [Futures](#futures)
 4. [Libraries](#libraries)
 5. [Tide](#tide)
 6. [Interesting Projects](#interesting-projects)
