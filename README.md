@@ -61,7 +61,7 @@ Material I come across which is benefitial in reading through to learn the langu
 ### Tutorials
 * [Streaming gRPC with Rust – Kevin Hoffman – Medium](https://medium.com/@KevinHoffman/streaming-grpc-with-rust-d978fece5ef6)
 * [Introduction - Learning Rust With Entirely Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/)
-* [Stanford CS140e - Operating Systems](https://cs140e.sergio.bz)
+* [Stanford CS140e - Operating Systems](https://github.com/dddrrreee/cs140e-win19)
 * [Implementing TCP in Rust (part 1) - YouTube](https://www.youtube.com/watch?v=bzja9fQWzdA)
 * [Build a cryptocurrency! - Blockchain in Rust #01: Blocks & Hashing - YouTube](https://www.youtube.com/watch?v=vJdT05zl6jk&list=PLwnSaD6BDfXL0RiKT_5nOIdxTxZWpPtAv&index=2&t=0s)
 
