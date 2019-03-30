@@ -191,6 +191,7 @@ Material I come across which is benefitial to read through to learn the language
 * [Tokio Reactor](https://docs.rs/tokio/0.1.18/tokio/reactor/index.html)
 
 ## General Web and Async KnowHow
+* [Concurrency, Parallelism, Threads, Processes, Async and Sync — Related? 🤔](https://medium.com/swift-india/concurrency-parallelism-threads-processes-async-and-sync-related-39fd951bc61d)
 * [The Illustrated TLS 1.3 Connection: Every Byte Explained](https://tls13.ulfheim.net/)
 * [corefx/HttpCorrelationProtocol.md at master · dotnet/corefx · GitHub](https://github.com/dotnet/corefx/blob/master/src/System.Diagnostics.DiagnosticSource/src/HttpCorrelationProtocol.md)
 * [Transport Layer Security - Wikipedia](https://en.wikipedia.org/wiki/Transport_Layer_Security)
