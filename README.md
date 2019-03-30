@@ -1,15 +1,13 @@
-# learning-rust
+# Learning Rust
 Material I come across which is benefitial in reading through to learn the language
 
-# Learning 
-#rust
-
-### Overview
+# General Overview
 * [Rust for High-Level Programming Language Developers – IQDevs – Technology Excellence Redefined](https://iqdevs.github.io/Rust-for-High-Level-Programming-Language-Developers/)
 * [Learning-Rust/main.rs at master · Mathieu-Desrochers/Learning-Rust · GitHub](https://github.com/Mathieu-Desrochers/Learning-Rust/blob/master/src/main.rs)
 * [Oxide : The Essence of Rust](https://arxiv.org/pdf/1903.00982.pdf)
 * [Structure literals vs constructors in Rust](https://words.steveklabnik.com/structure-literals-vs-constructors-in-rust)
 
+# Rust Features
 ### Traits
 * [Rust: Traits – | ?- BlogName = _.](https://gillesleblanc.wordpress.com/2014/11/21/rust-traits/)
 * [Abstraction without overhead: traits in Rust - The Rust Programming Language Blog](https://blog.rust-lang.org/2015/05/11/traits.html)
@@ -24,12 +22,6 @@ Material I come across which is benefitial in reading through to learn the langu
 ### Closures
 * [Closures: Anonymous Functions that Can Capture Their Environment - The Rust Programming Language](https://doc.rust-lang.org/book/ch13-01-closures.html)
 * [Finding Closure in Rust |  Huon on the internet](http://huonw.github.io/blog/2015/05/finding-closure-in-rust/)
-
-##### Iterator
-* [std::iter::Iterator - Rust](https://doc.rust-lang.org/std/iter/trait.Iterator.html)
-
-##### Options
-* [Rust: Using Options by example](http://www.ameyalokare.com/rust/2017/10/23/rust-options.html)
 
 ### Ownership
 * [Ownership in Rust, Part 1 – Thomas Countz – Medium](https://medium.com/@thomascountz/ownership-in-rust-part-1-112036b1126b)
@@ -54,6 +46,13 @@ Material I come across which is benefitial in reading through to learn the langu
 ### Cargo
 * [Matthias Endler](https://matthias-endler.de/2018/cargo-inspect/)
 
+# Specific Knowledge
+### Iterator
+* [std::iter::Iterator - Rust](https://doc.rust-lang.org/std/iter/trait.Iterator.html)
+
+### Options
+* [Rust: Using Options by example](http://www.ameyalokare.com/rust/2017/10/23/rust-options.html)
+
 ---
 
 ### Tutorials
@@ -75,8 +74,8 @@ Material I come across which is benefitial in reading through to learn the langu
 * [Classic unix utilities make great beginner projects! : rust](https://www.reddit.com/r/rust/comments/b0i625/classic_unix_utilities_make_great_beginner/)
 
 ### Tinker/Understand
-* [Compiler Explorer](https://godbolt.org/z/SYMUem)
-* [Rust Playground](https://play.rust-lang.org/?version=stable&mode=debug&edition=2018&gist=1ca846311b58545aa1a0c7475360f916)
+* [Understand this assembly output](https://godbolt.org/z/SYMUem)
+* [Understand this example code](https://play.rust-lang.org/?version=stable&mode=debug&edition=2018&gist=1ca846311b58545aa1a0c7475360f916)
 * [Rust pattern: Iterating an over a Rc<Vec<T>>](http://smallcultfollowing.com/babysteps/blog/2018/09/02/rust-pattern-iterating-an-over-a-rc-vec-t/)
 
 ### Articles
@@ -85,7 +84,6 @@ Material I come across which is benefitial in reading through to learn the langu
 * [Green Threads are like Garbage Collection](https://www.fpcomplete.com/blog/2017/01/green-threads-are-like-garbage-collection)
 
 # Asnyc/Web
-#rust
 
 ### Async
 * [RFC: stabilize `std::task` and `std::future::Future` by aturon · Pull Request #2592 · rust-lang/rfcs · GitHub](https://github.com/rust-lang/rfcs/pull/2592)
@@ -123,7 +121,7 @@ Material I come across which is benefitial in reading through to learn the langu
 * [WIP Revamp Tide, dropping Extractors and simplifying the framework by aturon · Pull Request #156 · rustasync/tide · GitHub](https://github.com/rustasync/tide/pull/156/files)
 * [Nail down wildcard/fallback rules · Issue #12 · rustasync/tide · GitHub](https://github.com/rustasync/tide/issues/12)
 * [Consider using route_recognizer instead of path-table · Issue #141 · rustasync/tide · GitHub](https://github.com/rustasync/tide/issues/141)
-* [Sign in to GitHub · GitHub](https://github.com/gotham-rs/gotham/edit/master/examples/cookies/introduction/src/main.rs)
+* [Gotham Example](https://github.com/gotham-rs/gotham/edit/master/examples/cookies/introduction/src/main.rs)
 
 ### Interesting projects
 * [GitHub - gkbrk/rust-ipfs-api: Rust crate for interfacing with the IPFS API](https://github.com/gkbrk/rust-ipfs-api)
