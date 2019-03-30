@@ -40,6 +40,7 @@ Material I come across which is benefitial to read through to learn the language
 
 ---
 ## General Overview
+* [Learning Rust](https://learning-rust.github.io/)
 * [Rust for High-Level Programming Language Developers – IQDevs – Technology Excellence Redefined](https://iqdevs.github.io/Rust-for-High-Level-Programming-Language-Developers/)
 * [Learning-Rust/main.rs at master · Mathieu-Desrochers/Learning-Rust · GitHub](https://github.com/Mathieu-Desrochers/Learning-Rust/blob/master/src/main.rs)
 * [Oxide : The Essence of Rust](https://arxiv.org/pdf/1903.00982.pdf)
