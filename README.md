@@ -53,6 +53,9 @@ Material I come across which is benefitial in reading through to learn the langu
 ### Options
 * [Rust: Using Options by example](http://www.ameyalokare.com/rust/2017/10/23/rust-options.html)
 
+### Documentation Testing
+* [rust-by-example](https://doc.rust-lang.org/rust-by-example/testing/doc_testing.html)
+
 ---
 
 ### Tutorials
@@ -77,8 +80,9 @@ Material I come across which is benefitial in reading through to learn the langu
 * [Understand this assembly output](https://godbolt.org/z/SYMUem)
 * [Understand this example code](https://play.rust-lang.org/?version=stable&mode=debug&edition=2018&gist=1ca846311b58545aa1a0c7475360f916)
 * [Rust pattern: Iterating an over a Rc<Vec<T>>](http://smallcultfollowing.com/babysteps/blog/2018/09/02/rust-pattern-iterating-an-over-a-rc-vec-t/)
+* [State Machine Patterns in Rust](https://hoverbear.org/2016/10/12/rust-state-machine-pattern/)
 
-### Articles
+### Long form & General Knowledge
 * [Scientific computing: a Rust adventure Part 0 - Vectors](https://www.lpalmieri.com/posts/2019-02-23-scientific-computing-a-rust-adventure-part-0-vectors/)
 * [Scientific computing: a Rust adventure Part 1 - Zero-cost abstractions](https://www.lpalmieri.com/posts/2019-03-12-scientific-computing-a-rust-adventure-part-1-zero-cost-abstractions/)
 * [Green Threads are like Garbage Collection](https://www.fpcomplete.com/blog/2017/01/green-threads-are-like-garbage-collection)
@@ -86,22 +90,26 @@ Material I come across which is benefitial in reading through to learn the langu
 # Asnyc/Web
 
 ### Async
-* [RFC: stabilize `std::task` and `std::future::Future` by aturon · Pull Request #2592 · rust-lang/rfcs · GitHub](https://github.com/rust-lang/rfcs/pull/2592)
-* [async/await notation for ergonomic asynchronous IO by withoutboats · Pull Request #2394 · rust-lang/rfcs · GitHub](https://github.com/rust-lang/rfcs/pull/2394/files)
-* [asynchronous - What is the purpose of async/await in Rust? - Stack Overflow](https://stackoverflow.com/questions/52835725/what-is-the-purpose-of-async-await-in-rust)
-* [The relationship between async libraries in Rust |      Jimmy Cuadra](https://www.jimmycuadra.com/posts/the-relationship-between-async-libraries-in-rust/)
+* [RFC: stabilize `std::task` and `std::future::Future`](https://github.com/rust-lang/rfcs/pull/2592)
+* [async/await notation for ergonomic asynchronous IO Pull Request](https://github.com/rust-lang/rfcs/pull/2394/files)
+* [asynchronous - What is the purpose of async/await in Rust?](https://stackoverflow.com/questions/52835725/what-is-the-purpose-of-async-await-in-rust)
+* [The relationship between async libraries in Rust](https://www.jimmycuadra.com/posts/the-relationship-between-async-libraries-in-rust/)
 
 ### Concurrency
 * [Fearless Concurrency - The Rust Programming Language](https://doc.rust-lang.org/1.30.0/book/second-edition/ch16-00-concurrency.html)
 * [Sending trait objects between threads - help - The Rust Programming Language Forum](https://users.rust-lang.org/t/sending-trait-objects-between-threads/2374)
 * [std::sync::Arc - Rust](https://doc.rust-lang.org/std/sync/struct.Arc.html)
 * [Is Send/Sync special cased? - The Rust Programming Language Forum](https://users.rust-lang.org/t/is-send-sync-special-cased/2355/2)
+* [What is a Thread?](https://www.geeksforgeeks.org/operarting-system-thread/)
 
 ### Futures
 * [Understanding Futures In Rust — Part 1 | Viget](https://www.viget.com/articles/understanding-futures-in-rust-part-1/)
 * [Async, futures, and tokio - Rust Crash Course lesson 7](https://www.snoyman.com/blog/2018/12/rust-crash-course-07-async-futures-tokio)
 * [GitHub - rust-lang-nursery/futures-rs: Zero-cost asynchronous programming in Rust](https://github.com/rust-lang-nursery/futures-rs)
 * [Zero-cost futures in Rust · Aaron Turon](https://aturon.github.io/blog/2016/08/11/futures/)
+* [Futures in Rust (and Haskell)](https://slides.com/wraithm/async-io-in-rust-and-haskell/#/)
+* [Converting AsyncRead and AsyncWrite to Futures, Sinks and Streams](https://jsdw.me/posts/rust-futures-tokio/)
+
 
 ### Libraries
 * Romio: [Wherefore art thou Romio?](https://boats.gitlab.io/blog/post/romio/) , [GitHub - withoutboats/romio: asynchronous networking primitives](https://github.com/withoutboats/romio)
@@ -124,18 +132,30 @@ Material I come across which is benefitial in reading through to learn the langu
 * [Gotham Example](https://github.com/gotham-rs/gotham/edit/master/examples/cookies/introduction/src/main.rs)
 
 ### Interesting projects
-* [GitHub - gkbrk/rust-ipfs-api: Rust crate for interfacing with the IPFS API](https://github.com/gkbrk/rust-ipfs-api)
+* [rust-ipfs-api: Rust crate for interfacing with the IPFS API](https://github.com/gkbrk/rust-ipfs-api)
 * [Radicle 🌱](http://www.radicle.xyz/)
-* [GitHub - timvisee/ffsend: Easily and securely share files from the command line. A fully featured Firefox Send client.](https://github.com/timvisee/ffsend)
-* [GitHub - jonhoo/rust-imap: IMAP client library for Rust](https://github.com/jonhoo/rust-imap)
-* [Pedal to the metal: dynamic templates with Ramhorns](https://maciej.codes/2019-03-03-ramhorns.html)
+* [ffsend: Easily and securely share files from the command line](https://github.com/timvisee/ffsend)
+* [rust-imap: IMAP client library](https://github.com/jonhoo/rust-imap)
+* [Ramhorns: Dynamic templates](https://maciej.codes/2019-03-03-ramhorns.html)
+* [May - coroutines in Rust](https://github.com/Xudong-Huang/may)
 
-### General KnowHow
+### General Knowledge
+* [The relationship between async libraries in Rust](https://www.jimmycuadra.com/posts/the-relationship-between-async-libraries-in-rust/)
+* [Tokio Reactor](https://docs.rs/tokio/0.1.18/tokio/reactor/index.html)
+
+### General Web KnowHow
 * [The Illustrated TLS 1.3 Connection: Every Byte Explained](https://tls13.ulfheim.net/)
 * [corefx/HttpCorrelationProtocol.md at master · dotnet/corefx · GitHub](https://github.com/dotnet/corefx/blob/master/src/System.Diagnostics.DiagnosticSource/src/HttpCorrelationProtocol.md)
 * [Test harness - Wikipedia](https://en.wikipedia.org/wiki/Test_harness)
 * [Transport Layer Security - Wikipedia](https://en.wikipedia.org/wiki/Transport_Layer_Security)
 * [Finite-state machine - Wikipedia](https://en.wikipedia.org/wiki/Finite-state_machine)
+* [There is no free lunch](http://www.gotw.ca/publications/concurrency-ddj.htm)
 
 ### Tinker/Understand
-* [RAII system for handling event listeners · Issue #30 · rustwasm/gloo · GitHub](https://github.com/rustwasm/gloo/issues/30)
+* [Sending trait objects between threads](https://users.rust-lang.org/t/sending-trait-objects-between-threads/2374)
+* [Event Stream in AWS Lambda](https://github.com/awslabs/aws-lambda-rust-runtime/blob/7aad06ad0a9c814a697202dff77ba293aa32dc62/lambda-runtime-client-simple/src/lib.rs#L155)
+* [How do I use asnyc/await syntax in Tokio?](https://stackoverflow.com/questions/54853917/how-do-i-use-async-await-syntax-with-tokio)
+
+### Insight in other languges
+* [Go concurrency](https://tour.golang.org/concurrency/2)
+* [Object Streams in NodeJS](https://community.risingstack.com/the-definitive-guide-to-object-streams-in-node-js/)
