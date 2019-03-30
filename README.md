@@ -20,12 +20,12 @@ Material I come across which is benefitial to read through to learn the language
     3.1 [Iterator](#iterator)  
     3.2 [Options](#options)  
     3.3 [Documentation Testing](#documentation-testing)  
-4. [Tutorials](#tutorials)
-5. [Talks](#talks)
-6. [Project Ideas](#project-ideas)
-7. [General Tinker](#general-tinker)
-8. [Long form and General Knowledge](#long-form-and-general-knowledge)
-9. [Complete Learning Websites](#complete-learning-websites)
+4. [Complete Learning Websites](#complete-learning-websites)  
+5. [Tutorials](#tutorials)  
+6. [Talks](#talks)
+7. [Project Ideas](#project-ideas)
+8. [General Tinker](#general-tinker)
+9. [Long form and General Knowledge](#long-form-and-general-knowledge)
 
 ## Rust Asnyc/Web
 1. [Async](#async)
@@ -97,6 +97,12 @@ Material I come across which is benefitial to read through to learn the language
 
 ---
 
+## Complete Learning Websites
+* [Learning Rust](https://learning-rust.github.io/)
+* [Exercism.io - Rust track](https://exercism.io/tracks/rust)
+* [Rust Cookbook]( https://rust-lang-nursery.github.io/rust-cookbook/intro.html)
+* [Rustlings](https://github.com/rust-lang/rustlings)
+
 ## Tutorials
 * [Writing an OS in Rust](https://os.phil-opp.com/)
 * [Streaming gRPC with Rust – Kevin Hoffman – Medium](https://medium.com/@KevinHoffman/streaming-grpc-with-rust-d978fece5ef6)
@@ -128,11 +134,7 @@ Material I come across which is benefitial to read through to learn the language
 * [Green Threads are like Garbage Collection](https://www.fpcomplete.com/blog/2017/01/green-threads-are-like-garbage-collection)
 * [Test harness - Wikipedia](https://en.wikipedia.org/wiki/Test_harness)
 
-## Complete Learning Websites
-* [Learning Rust](https://learning-rust.github.io/)
-* [Exercism.io - Rust track](https://exercism.io/tracks/rust)
-* [Rust Cookbook]( https://rust-lang-nursery.github.io/rust-cookbook/intro.html)
-* [Rustlings](https://github.com/rust-lang/rustlings)
+---
 
 ## Async
 * [RFC: stabilize `std::task` and `std::future::Future`](https://github.com/rust-lang/rfcs/pull/2592)
