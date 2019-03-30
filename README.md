@@ -25,6 +25,7 @@ Material I come across which is benefitial to read through to learn the language
 6. [Project Ideas](#project-ideas)
 7. [General Tinker](#general-tinker)
 8. [Long form and General Knowledge](#long-form-and-general-knowledge)
+9. [Complete Learning Websites](#complete-learning-websites)
 
 ## Rust Asnyc/Web
 1. [Async](#async)
@@ -40,7 +41,6 @@ Material I come across which is benefitial to read through to learn the language
 
 ---
 ## General Overview
-* [Learning Rust](https://learning-rust.github.io/)
 * [Rust for High-Level Programming Language Developers – IQDevs – Technology Excellence Redefined](https://iqdevs.github.io/Rust-for-High-Level-Programming-Language-Developers/)
 * [Learning-Rust/main.rs at master · Mathieu-Desrochers/Learning-Rust · GitHub](https://github.com/Mathieu-Desrochers/Learning-Rust/blob/master/src/main.rs)
 * [Oxide : The Essence of Rust](https://arxiv.org/pdf/1903.00982.pdf)
@@ -98,6 +98,7 @@ Material I come across which is benefitial to read through to learn the language
 ---
 
 ## Tutorials
+* [Writing an OS in Rust](https://os.phil-opp.com/)
 * [Streaming gRPC with Rust – Kevin Hoffman – Medium](https://medium.com/@KevinHoffman/streaming-grpc-with-rust-d978fece5ef6)
 * [Introduction - Learning Rust With Entirely Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/)
 * [Stanford CS140e - Operating Systems](https://github.com/dddrrreee/cs140e-win19)
@@ -126,6 +127,12 @@ Material I come across which is benefitial to read through to learn the language
 * [Scientific computing: a Rust adventure Part 1 - Zero-cost abstractions](https://www.lpalmieri.com/posts/2019-03-12-scientific-computing-a-rust-adventure-part-1-zero-cost-abstractions/)
 * [Green Threads are like Garbage Collection](https://www.fpcomplete.com/blog/2017/01/green-threads-are-like-garbage-collection)
 * [Test harness - Wikipedia](https://en.wikipedia.org/wiki/Test_harness)
+
+## Complete Learning Websites
+* [Learning Rust](https://learning-rust.github.io/)
+* [Exercism.io - Rust track](https://exercism.io/tracks/rust)
+* [Rust Cookbook]( https://rust-lang-nursery.github.io/rust-cookbook/intro.html)
+* [Rustlings](https://github.com/rust-lang/rustlings)
 
 ## Async
 * [RFC: stabilize `std::task` and `std::future::Future`](https://github.com/rust-lang/rfcs/pull/2592)
