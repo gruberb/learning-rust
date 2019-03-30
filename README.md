@@ -104,15 +104,15 @@ Material I come across which is benefitial in reading through to learn the langu
 * [What is a Thread?](https://www.geeksforgeeks.org/operarting-system-thread/)
 
 ### Futures
-* [Understanding Futures In Rust — Part 1 | Viget](https://www.viget.com/articles/understanding-futures-in-rust-part-1/)
 * [Async, futures, and tokio - Rust Crash Course lesson 7](https://www.snoyman.com/blog/2018/12/rust-crash-course-07-async-futures-tokio)
-* [GitHub - rust-lang-nursery/futures-rs: Zero-cost asynchronous programming in Rust](https://github.com/rust-lang-nursery/futures-rs)
-* [Zero-cost futures in Rust · Aaron Turon](https://aturon.github.io/blog/2016/08/11/futures/)
+* [Understanding Futures In Rust — Part 1 | Viget](https://www.viget.com/articles/understanding-futures-in-rust-part-1/)
 * [Futures in Rust (and Haskell)](https://slides.com/wraithm/async-io-in-rust-and-haskell/#/)
 * [Converting AsyncRead and AsyncWrite to Futures, Sinks and Streams](https://jsdw.me/posts/rust-futures-tokio/)
+* [Zero-cost futures in Rust · Aaron Turon](https://aturon.github.io/blog/2016/08/11/futures/)
 
 
 ### Libraries
+* Futures: [Zero-cost asynchronous programming in Rust](https://github.com/rust-lang-nursery/futures-rs)
 * Romio: [Wherefore art thou Romio?](https://boats.gitlab.io/blog/post/romio/) , [GitHub - withoutboats/romio: asynchronous networking primitives](https://github.com/withoutboats/romio)
 * Juliex: [GitHub - withoutboats/juliex](https://github.com/withoutboats/juliex)
 * Tower:  [GitHub - tower-rs/tower: fn(Request) -> Future<Response>](https://github.com/tower-rs/tower)
@@ -140,11 +140,10 @@ Material I come across which is benefitial in reading through to learn the langu
 * [Ramhorns: Dynamic templates](https://maciej.codes/2019-03-03-ramhorns.html)
 * [May - coroutines in Rust](https://github.com/Xudong-Huang/may)
 
-### General Knowledge
-* [The relationship between async libraries in Rust](https://www.jimmycuadra.com/posts/the-relationship-between-async-libraries-in-rust/)
+### Specific Knowledge
 * [Tokio Reactor](https://docs.rs/tokio/0.1.18/tokio/reactor/index.html)
 
-### General Web KnowHow
+### General Web/Async KnowHow
 * [The Illustrated TLS 1.3 Connection: Every Byte Explained](https://tls13.ulfheim.net/)
 * [corefx/HttpCorrelationProtocol.md at master · dotnet/corefx · GitHub](https://github.com/dotnet/corefx/blob/master/src/System.Diagnostics.DiagnosticSource/src/HttpCorrelationProtocol.md)
 * [Transport Layer Security - Wikipedia](https://en.wikipedia.org/wiki/Transport_Layer_Security)
