@@ -1,5 +1,5 @@
 # Learning Rust
-Material I come across which is benefitial to read through to learn the language ([next to my own series, of course](https://github.com/gruberb/web-programming-in-rust))
+Material I come across which is beneficial to read through to learn the language ([next to my own series, of course](https://github.com/gruberb/web-programming-in-rust))
 
 ---
 # Content 
