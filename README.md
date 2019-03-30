@@ -145,6 +145,7 @@ Material I come across which is benefitial to read through to learn the language
 
 ## Concurrency
 * [Fearless Concurrency - The Rust Programming Language](https://doc.rust-lang.org/1.30.0/book/second-edition/ch16-00-concurrency.html)
+* [Green Threads are like Garbage Collection](https://www.fpcomplete.com/blog/2017/01/green-threads-are-like-garbage-collection)
 * [Sending trait objects between threads - help - The Rust Programming Language Forum](https://users.rust-lang.org/t/sending-trait-objects-between-threads/2374)
 * [std::sync::Arc - Rust](https://doc.rust-lang.org/std/sync/struct.Arc.html)
 * [Is Send/Sync special cased? - The Rust Programming Language Forum](https://users.rust-lang.org/t/is-send-sync-special-cased/2355/2)
