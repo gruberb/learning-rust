@@ -137,10 +137,11 @@ Material I come across which is benefitial to read through to learn the language
 ---
 
 ## Async
-* [RFC: stabilize `std::task` and `std::future::Future`](https://github.com/rust-lang/rfcs/pull/2592)
+* [Async, futures, and tokio - Rust Crash Course lesson 7](https://www.snoyman.com/blog/2018/12/rust-crash-course-07-async-futures-tokio)
 * [async/await notation for ergonomic asynchronous IO Pull Request](https://github.com/rust-lang/rfcs/pull/2394/files)
 * [asynchronous - What is the purpose of async/await in Rust?](https://stackoverflow.com/questions/52835725/what-is-the-purpose-of-async-await-in-rust)
 * [The relationship between async libraries in Rust](https://www.jimmycuadra.com/posts/the-relationship-between-async-libraries-in-rust/)
+* [RFC: stabilize `std::task` and `std::future::Future`](https://github.com/aturon/rfcs/blob/e7eaea194994da28bde2c36d78fedf50e79b4bcf/text/2592-futures.md)
 
 ## Concurrency
 * [Fearless Concurrency - The Rust Programming Language](https://doc.rust-lang.org/1.30.0/book/second-edition/ch16-00-concurrency.html)
@@ -150,7 +151,6 @@ Material I come across which is benefitial to read through to learn the language
 * [What is a Thread?](https://www.geeksforgeeks.org/operarting-system-thread/)
 
 ## Futures
-* [Async, futures, and tokio - Rust Crash Course lesson 7](https://www.snoyman.com/blog/2018/12/rust-crash-course-07-async-futures-tokio)
 * [Understanding Futures In Rust — Part 1 | Viget](https://www.viget.com/articles/understanding-futures-in-rust-part-1/)
 * [Futures in Rust (and Haskell)](https://slides.com/wraithm/async-io-in-rust-and-haskell/#/)
 * [Converting AsyncRead and AsyncWrite to Futures, Sinks and Streams](https://jsdw.me/posts/rust-futures-tokio/)
