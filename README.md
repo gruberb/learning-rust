@@ -2,7 +2,7 @@
 Material I come across which is benefitial to read through to learn the language
 
 ---
-#Content 
+# Content 
 
 ## Rust Overview
 1. [General Overview](#general-overview)
