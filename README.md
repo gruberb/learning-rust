@@ -197,6 +197,7 @@ Material I come across which is beneficial to read through to learn the language
 * [Transport Layer Security - Wikipedia](https://en.wikipedia.org/wiki/Transport_Layer_Security)
 * [Finite-state machine - Wikipedia](https://en.wikipedia.org/wiki/Finite-state_machine)
 * [There is no free lunch](http://www.gotw.ca/publications/concurrency-ddj.htm)
+* [Reactor Pattern](https://www.puncsky.com/blog/2015/01/13/understanding-reactor-pattern-for-highly-scalable-i-o-bound-web-server/)
 
 ## Async Tinker
 * [Sending trait objects between threads](https://users.rust-lang.org/t/sending-trait-objects-between-threads/2374)
