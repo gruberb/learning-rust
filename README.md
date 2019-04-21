@@ -111,6 +111,7 @@ Material I come across which is beneficial to read through to learn the language
 * [Stanford CS140e - Operating Systems](https://github.com/dddrrreee/cs140e-win19)
 * [Implementing TCP in Rust (part 1) - YouTube](https://www.youtube.com/watch?v=bzja9fQWzdA)
 * [Build a cryptocurrency! - Blockchain in Rust #01: Blocks & Hashing - YouTube](https://www.youtube.com/watch?v=vJdT05zl6jk&list=PLwnSaD6BDfXL0RiKT_5nOIdxTxZWpPtAv&index=2&t=0s)
+* [Learn Parser Combinators](https://bodil.lol/parser-combinators/)
 
 ## Talks
 * [Rust - YouTube](https://www.youtube.com/channel/UCaYhcUwRBNscFNUKTjgPFiA/videos)
