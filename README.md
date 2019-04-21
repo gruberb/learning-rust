@@ -81,6 +81,7 @@ Material I come across which is beneficial to read through to learn the language
 * [A Practical Intro to Macros in Rust 1.0](https://danielkeep.github.io/practical-intro-to-macros.html)
 * [The Little Book of Rust Macros](https://danielkeep.github.io/tlborm/book/README.html)
 * [Deriving Traits in Rust with Procedural Macros · naftuli.wtf](https://naftuli.wtf/2019/01/02/rust-derive-macros/)
+* [A Love Letter To RusT Macros](https://happens.lol/posts/a-love-letter-to-rust-macros/)
 
 ### Cargo
 * [Matthias Endler](https://matthias-endler.de/2018/cargo-inspect/)
