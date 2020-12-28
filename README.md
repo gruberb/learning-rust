@@ -179,7 +179,7 @@ Material I come across which is beneficial to read through to learn the language
 * [WIP Revamp Tide, dropping Extractors and simplifying the framework by aturon · Pull Request #156 · rustasync/tide · GitHub](https://github.com/rustasync/tide/pull/156/files)
 * [Nail down wildcard/fallback rules · Issue #12 · rustasync/tide · GitHub](https://github.com/rustasync/tide/issues/12)
 * [Consider using route_recognizer instead of path-table · Issue #141 · rustasync/tide · GitHub](https://github.com/rustasync/tide/issues/141)
-* [Gotham Example](https://github.com/gotham-rs/gotham/edit/master/examples/cookies/introduction/src/main.rs)
+* [Gotham Example](https://github.com/gotham-rs/gotham/blob/master/examples/cookies/introduction/src/main.rs)
 
 ## Interesting projects
 * [rust-ipfs-api: Rust crate for interfacing with the IPFS API](https://github.com/gkbrk/rust-ipfs-api)
