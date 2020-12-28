@@ -27,7 +27,7 @@ Material I come across which is beneficial to read through to learn the language
 8. [General Tinker](#general-tinker)
 9. [Long form and General Knowledge](#long-form-and-general-knowledge)
 
-## Rust Asnyc/Web
+## Rust Async/Web
 1. [Async](#async)
 2. [Concurrency](#concurrency)
 3. [Futures](#futures)
@@ -204,7 +204,7 @@ Material I come across which is beneficial to read through to learn the language
 ## Async Tinker
 * [Sending trait objects between threads](https://users.rust-lang.org/t/sending-trait-objects-between-threads/2374)
 * [Event Stream in AWS Lambda](https://github.com/awslabs/aws-lambda-rust-runtime/blob/7aad06ad0a9c814a697202dff77ba293aa32dc62/lambda-runtime-client-simple/src/lib.rs#L155)
-* [How do I use asnyc/await syntax in Tokio?](https://stackoverflow.com/questions/54853917/how-do-i-use-async-await-syntax-with-tokio)
+* [How do I use async/await syntax in Tokio?](https://stackoverflow.com/questions/54853917/how-do-i-use-async-await-syntax-with-tokio)
 
 ## Insight in other languages
 * [Go concurrency](https://tour.golang.org/concurrency/2)
