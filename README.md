@@ -5,6 +5,7 @@ Material I come across which is beneficial to read through to learn the language
 # Content 
 
 ## Rust Overview
+0. [Shamelss Plugs](#shameless-plugs)
 1. [General Overview](#general-overview)
 2. [Rust Features](#rust-features)  
     2.1 [Traits](#traits)  
@@ -40,6 +41,12 @@ Material I come across which is beneficial to read through to learn the language
 10. [Insight in other languages](#insight-in-other-languages)
 
 ---
+
+## Shameless plugs
+
+* [Rust Web Development book (Manning)](https://www.manning.com/books/rust-web-development)
+* [rustwebdevelopment.com](https://rustwebdevelopment.com)
+
 ## General Overview
 * [Rust for High-Level Programming Language Developers – IQDevs – Technology Excellence Redefined](https://iqdevs.github.io/Rust-for-High-Level-Programming-Language-Developers/)
 * [Learning-Rust/main.rs at master · Mathieu-Desrochers/Learning-Rust · GitHub](https://github.com/Mathieu-Desrochers/Learning-Rust/blob/master/src/main.rs)
