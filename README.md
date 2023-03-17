@@ -1,5 +1,5 @@
 # Learning Rust
-Material I come across which is beneficial to read through to learn the language ([next to my own series, of course](https://github.com/gruberb/web-programming-in-rust))
+Material I come across which is beneficial to read through to learn the language.
 
 ---
 # Content
@@ -32,7 +32,7 @@ Material I come across which is beneficial to read through to learn the language
 1. [Async](#async)
 2. [Concurrency](#concurrency)
 3. [Futures](#futures)
-4. [TCP, epoll, channels](#tcp)
+4. [TCP, epoll, channels](#TCP,-epoll,-channels)
 5. [Libraries](#libraries)
 6. [Interesting Projects](#interesting-projects)
 7. [General Web and Async KnowHow](#general-web-and-async-knowhow)
