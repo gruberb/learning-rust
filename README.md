@@ -33,9 +33,10 @@ Material I come across which is beneficial to read through to learn the language
 2. [Concurrency](#concurrency)
 3. [Futures](#futures)
 4. [TCP, epoll, channels](#TCP,-epoll,-channels)
-5. [Libraries](#libraries)
-6. [Interesting Projects](#interesting-projects)
-7. [General Web and Async KnowHow](#general-web-and-async-knowhow)
+5. [gRPC](#grpc)
+6. [Libraries](#libraries)
+7. [Interesting Projects](#interesting-projects)
+8. [General Web and Async KnowHow](#general-web-and-async-knowhow)
 
 ## Peer-to-Peer
 1. [libp2p](#libp2p)
@@ -175,6 +176,10 @@ Material I come across which is beneficial to read through to learn the language
 * [Channels in Rust](https://www.youtube.com/watch?v=b4mS5UPHh20)
 * [epoll with Rust](https://zupzup.org/epoll-with-rust/)
 
+## gRPC
+* [Building gRPC APIs with Rust](https://konghq.com/blog/building-grpc-apis-with-rust)
+* [gRPC load balancing with Rust](https://truelayer.com/blog/grpc-load-balancing-in-rust/)
+
 ## Libraries
 * Futures: [Zero-cost asynchronous programming in Rust](https://github.com/rust-lang-nursery/futures-rs)
 * Tower:  [GitHub - tower-rs/tower: fn(Request) -> Future<Response>](https://github.com/tower-rs/tower)
@@ -183,15 +188,15 @@ Material I come across which is beneficial to read through to learn the language
 * Axum: [Axum - Web framework](https://github.com/tokio-rs/axum)
 
 ## Interesting projects
-* [rust-ipfs-api: Rust crate for interfacing with the IPFS API](https://github.com/gkbrk/rust-ipfs-api)
-* [Radicle 🌱](http://www.radicle.xyz/)
-* [ffsend: Easily and securely share files from the command line](https://github.com/timvisee/ffsend)
+* [rust-ipfs-api](https://github.com/gkbrk/rust-ipfs-api)
+* [Radicle](http://www.radicle.xyz/)
+* [ffsend:Share files from the command line](https://github.com/timvisee/ffsend)
 * [rust-imap: IMAP client library](https://github.com/jonhoo/rust-imap)
 
 ## General Web and Async KnowHow
-* [Concurrency, Parallelism, Threads, Processes, Async and Sync — Related? 🤔](https://medium.com/swift-india/concurrency-parallelism-threads-processes-async-and-sync-related-39fd951bc61d)
+* [Concurrency, Parallelism, Threads, Processes, Async and Sync](https://medium.com/swift-india/concurrency-parallelism-threads-processes-async-and-sync-related-39fd951bc61d)
 * [The Illustrated TLS 1.3 Connection: Every Byte Explained](https://tls13.ulfheim.net/)
-* [corefx/HttpCorrelationProtocol.md at master · dotnet/corefx · GitHub](https://github.com/dotnet/corefx/blob/master/src/System.Diagnostics.DiagnosticSource/src/HttpCorrelationProtocol.md)
+* [corefx/HttpCorrelationProtocol.md ](https://github.com/dotnet/corefx/blob/master/src/System.Diagnostics.DiagnosticSource/src/HttpCorrelationProtocol.md)
 * [Transport Layer Security - Wikipedia](https://en.wikipedia.org/wiki/Transport_Layer_Security)
 * [Finite-state machine - Wikipedia](https://en.wikipedia.org/wiki/Finite-state_machine)
 * [There is no free lunch](http://www.gotw.ca/publications/concurrency-ddj.htm)
@@ -207,3 +212,4 @@ Material I come across which is beneficial to read through to learn the language
 * [libp2p swarm](https://docs.rs/libp2p/latest/libp2p/swarm/index.html)
 * [Chat example](https://github.com/libp2p/rust-libp2p/blob/master/examples/chat-example/src/main.rs)
 * [Ping example](https://github.com/gruberb/libp2p-rs-ping/blob/main/src/main.rs)
+* [Tutorial: Build a simple p2p app using Rust](https://morioh.com/p/f1b14f97b537)
