@@ -2,28 +2,28 @@
 Material I come across which is beneficial to read through to learn the language ([next to my own series, of course](https://github.com/gruberb/web-programming-in-rust))
 
 ---
-# Content 
+# Content
 
 ## Rust Overview
 0. [Shamelss Plugs](#shameless-plugs)
 1. [General Overview](#general-overview)
-2. [Rust Features](#rust-features)  
-    2.1 [Traits](#traits)  
-    2.2 [Types](#types)  
-    2.3 [Associated Types](#associated-types)  
-    2.4 [Closures](#closures)  
-    2.5 [Ownership](#ownership)  
-    2.6 [Allocation and Memory](#allocation-and-lifetimes)  
-    2.7 [Lifetimes](#lifetimes)  
-    2.8 [Macros](#maros)  
-    2.9 [Cargo](#cargo)  
-3. [Specific Knowledge](#specific-knowledge)  
-    3.1 [Iterator](#iterator)  
-    3.2 [Options](#options)  
-    3.3 [Documentation Testing](#documentation-testing)  
-4. [Complete Learning Websites](#complete-learning-websites)  
-5. [Tutorials](#tutorials)  
-6. [Talks](#talks)
+2. [Idiomatic Rust](#idiomatic-rust)
+3. [Rust Features](#rust-features)
+    3.1 [Traits](#traits)
+    3.2 [Types](#types)
+    3.3 [Associated Types](#associated-types)
+    3.4 [Closures](#closures)
+    3.5 [Ownership](#ownership)
+    3.6 [Allocation and Memory](#allocation-and-lifetimes)
+    3.7 [Lifetimes](#lifetimes)
+    3.8 [Macros](#maros)
+    3.9 [Cargo](#cargo)
+4. [specific Knowledge](#specific-knowledge)
+    4.1 [Iterator](#iterator)
+    4.2 [Options](#options)
+    4.3 [Documentation Testing](#documentation-testing)
+5. [Complete Learning Websites](#complete-learning-websites)
+6. [Tutorials](#tutorials)
 7. [Project Ideas](#project-ideas)
 8. [General Tinker](#general-tinker)
 9. [Long form and General Knowledge](#long-form-and-general-knowledge)
@@ -32,18 +32,17 @@ Material I come across which is beneficial to read through to learn the language
 1. [Async](#async)
 2. [Concurrency](#concurrency)
 3. [Futures](#futures)
-4. [Libraries](#libraries)
-5. [Tide](#tide)
+4. [TCP, epoll, channels](#tcp)
+5. [Libraries](#libraries)
 6. [Interesting Projects](#interesting-projects)
-7. [Specific Knowledge](#specific-knowledge)
-8. [General Web and Async KnowHow](#general-web-and-async-knowhow)
-9. [Async Tinker](#async-tinker)
-10. [Insight in other languages](#insight-in-other-languages)
+7. [General Web and Async KnowHow](#general-web-and-async-knowhow)
+
+## Peer-to-Peer
+1. [libp2p](#libp2p)
 
 ---
 
 ## Shameless plugs
-
 * [Rust Web Development book (Manning)](https://www.manning.com/books/rust-web-development)
 * [rustwebdevelopment.com](https://rustwebdevelopment.com)
 
@@ -53,10 +52,19 @@ Material I come across which is beneficial to read through to learn the language
 * [Oxide : The Essence of Rust](https://arxiv.org/pdf/1903.00982.pdf)
 * [Structure literals vs constructors in Rust](https://words.steveklabnik.com/structure-literals-vs-constructors-in-rust)
 
+## Idiomatic Rust
+* [Binary Search in Rust](https://shane-o.dev/blog/binary-search-rust)
+* [Building a middleware from Scratch](https://github.com/tower-rs/tower/blob/master/guides/building-a-middleware-from-scratch.md)
+* [Iterators in Rust](https://www.newline.co/@uint/rust-iterators-a-guide--80e35528)
+* [Elegant APIs in Rust](https://deterministic.space/elegant-apis-in-rust.html)
+
 ## Rust Features
 ### Traits
-* [Rust: Traits – | ?- BlogName = _.](https://gillesleblanc.wordpress.com/2014/11/21/rust-traits/)
 * [Abstraction without overhead: traits in Rust - The Rust Programming Language Blog](https://blog.rust-lang.org/2015/05/11/traits.html)
+* [Refactoring in Rust - Using Traits](https://fettblog.eu/refactoring-rust-introducing-traits/)
+* [Using traits for better testing](https://stackoverflow.com/questions/72817819/how-do-i-use-rust-traits-to-abstract-http-call-for-tests)
+* [Rust traits and dependecny injection](https://jmmv.dev/2022/04/rust-traits-and-dependency-injection.html)
+* [Advanced traits](https://doc.rust-lang.org/book/ch19-03-advanced-traits.html#specifying-placeholder-types-in-trait-definitions-with-associated-types)
 * [Rust Basics: the add Trait - Hashnode](https://chilimatic.hashnode.dev/rust-basics-the-add-trait-cjtoke4yh002t8hs1c61p82mz)
 
 ### Types
@@ -120,14 +128,6 @@ Material I come across which is beneficial to read through to learn the language
 * [Build a cryptocurrency! - Blockchain in Rust #01: Blocks & Hashing - YouTube](https://www.youtube.com/watch?v=vJdT05zl6jk&list=PLwnSaD6BDfXL0RiKT_5nOIdxTxZWpPtAv&index=2&t=0s)
 * [Learn Parser Combinators](https://bodil.lol/parser-combinators/)
 
-## Talks
-* [Rust - YouTube](https://www.youtube.com/channel/UCaYhcUwRBNscFNUKTjgPFiA/videos)
-* [GOTO 2018 • Zen and the Art of Convincing Your Company to Use Rust • Ashley Williams - YouTube](https://www.youtube.com/watch?feature=youtu.be&v=Pn-1so-Ibsg&app=desktop)
-* [RustConf 2017 - Building Rocket by Sergio Benitez - YouTube](https://www.youtube.com/watch?v=t_FUZ34ahBE&feature=youtu.be)
-* [RustConf 2018 - No Spaghetti: Designing for Understanding by  Brandon W. Maister - YouTube](https://youtu.be/2uBbjq-Trnk)
-* [TechCast #108 – Carol Nichols on Rust – Chariot Solutions](https://chariotsolutions.com/podcast/carol-nichols-rust/)
-* [A Case for Oxidation: The Rust Programming Language - YouTube](https://youtu.be/cDFSrVhnZKo)
-
 ## Project Ideas
 * [Classic unix utilities make great beginner projects! : rust](https://www.reddit.com/r/rust/comments/b0i625/classic_unix_utilities_make_great_beginner/)
 
@@ -159,45 +159,34 @@ Material I come across which is beneficial to read through to learn the language
 * [std::sync::Arc - Rust](https://doc.rust-lang.org/std/sync/struct.Arc.html)
 * [Is Send/Sync special cased? - The Rust Programming Language Forum](https://users.rust-lang.org/t/is-send-sync-special-cased/2355/2)
 * [What is a Thread?](https://www.geeksforgeeks.org/operarting-system-thread/)
+* [Tokio: Tutorial](https://tokio.rs/tokio/tutorial)
 
 ## Futures
+* [Futures in Rust](https://www.youtube.com/watch?v=9_3krAQtD2k)
 * [Understanding Futures In Rust — Part 1 | Viget](https://www.viget.com/articles/understanding-futures-in-rust-part-1/)
 * [Futures in Rust (and Haskell)](https://slides.com/wraithm/async-io-in-rust-and-haskell/#/)
 * [Converting AsyncRead and AsyncWrite to Futures, Sinks and Streams](https://jsdw.me/posts/rust-futures-tokio/)
 * [Zero-cost futures in Rust · Aaron Turon](https://aturon.github.io/blog/2016/08/11/futures/)
 
+## TCP, epoll, channels
+* [TCP in Rust - #1](https://www.youtube.com/watch?v=bzja9fQWzdA&)
+* [TCP in Rust - #2](https://www.youtube.com/watch?v=OCpt1I0MWXE)
+* [TCP in Rust - #3](https://www.youtube.com/watch?v=8GE6ltLRJA4)
+* [Channels in Rust](https://www.youtube.com/watch?v=b4mS5UPHh20)
+* [epoll with Rust](https://zupzup.org/epoll-with-rust/)
 
 ## Libraries
 * Futures: [Zero-cost asynchronous programming in Rust](https://github.com/rust-lang-nursery/futures-rs)
-* Romio: [Wherefore art thou Romio?](https://boats.gitlab.io/blog/post/romio/) , [GitHub - withoutboats/romio: asynchronous networking primitives](https://github.com/withoutboats/romio)
-* Juliex: [GitHub - withoutboats/juliex](https://github.com/withoutboats/juliex)
 * Tower:  [GitHub - tower-rs/tower: fn(Request) -> Future<Response>](https://github.com/tower-rs/tower)
 * Serde: [GitHub - serde-rs/serde: Serialization framework for Rust](https://github.com/serde-rs/serde)
-* HTTP-Service: [GitHub - rustasync/http-service: Types and traits for http-based services using the latest futures API](https://github.com/rustasync/http-service)
 * Tokio: [Tokio - The asynchronous run-time for the Rust programming language.](https://tokio.rs/)
-
-## Tide
-* [WIP New Tide middleware: Automatic compression handling by kimsnj · Pull Request #117 · rustasync/tide · GitHub](https://github.com/rustasync/tide/pull/117/files)
-* [URL generation · Issue #24 · rustasync/tide · GitHub](https://github.com/rustasync/tide/issues/24)
-* [Logging middleware · Issue #8 · rustasync/tide · GitHub](https://github.com/rustasync/tide/issues/8)
-* [An RFC for structured logging by KodrAus · Pull Request #296 · rust-lang-nursery/log · GitHub](https://github.com/rust-lang-nursery/log/pull/296)
-* [Nail down wildcard/fallback rules · Issue #12 · rustasync/tide · GitHub](https://github.com/rustasync/tide/issues/12)
-* [Extend extractors with an optional seed per endpoint. by HeroicKatora · Pull Request #126 · rustasync/tide · GitHub](https://github.com/rustasync/tide/pull/126)
-* [WIP Revamp Tide, dropping Extractors and simplifying the framework by aturon · Pull Request #156 · rustasync/tide · GitHub](https://github.com/rustasync/tide/pull/156/files)
-* [Nail down wildcard/fallback rules · Issue #12 · rustasync/tide · GitHub](https://github.com/rustasync/tide/issues/12)
-* [Consider using route_recognizer instead of path-table · Issue #141 · rustasync/tide · GitHub](https://github.com/rustasync/tide/issues/141)
-* [Gotham Example](https://github.com/gotham-rs/gotham/blob/master/examples/cookies/introduction/src/main.rs)
+* Axum: [Axum - Web framework](https://github.com/tokio-rs/axum)
 
 ## Interesting projects
 * [rust-ipfs-api: Rust crate for interfacing with the IPFS API](https://github.com/gkbrk/rust-ipfs-api)
 * [Radicle 🌱](http://www.radicle.xyz/)
 * [ffsend: Easily and securely share files from the command line](https://github.com/timvisee/ffsend)
 * [rust-imap: IMAP client library](https://github.com/jonhoo/rust-imap)
-* [Ramhorns: Dynamic templates](https://maciej.codes/2019-03-03-ramhorns.html)
-* [May - coroutines in Rust](https://github.com/Xudong-Huang/may)
-
-## Specific Knowledge
-* [Tokio Reactor](https://docs.rs/tokio/0.1.18/tokio/reactor/index.html)
 
 ## General Web and Async KnowHow
 * [Concurrency, Parallelism, Threads, Processes, Async and Sync — Related? 🤔](https://medium.com/swift-india/concurrency-parallelism-threads-processes-async-and-sync-related-39fd951bc61d)
@@ -208,11 +197,13 @@ Material I come across which is beneficial to read through to learn the language
 * [There is no free lunch](http://www.gotw.ca/publications/concurrency-ddj.htm)
 * [Reactor Pattern](https://www.puncsky.com/blog/2015/01/13/understanding-reactor-pattern-for-highly-scalable-i-o-bound-web-server/)
 
-## Async Tinker
-* [Sending trait objects between threads](https://users.rust-lang.org/t/sending-trait-objects-between-threads/2374)
-* [Event Stream in AWS Lambda](https://github.com/awslabs/aws-lambda-rust-runtime/blob/7aad06ad0a9c814a697202dff77ba293aa32dc62/lambda-runtime-client-simple/src/lib.rs#L155)
-* [How do I use async/await syntax in Tokio?](https://stackoverflow.com/questions/54853917/how-do-i-use-async-await-syntax-with-tokio)
-
-## Insight in other languages
-* [Go concurrency](https://tour.golang.org/concurrency/2)
-* [Object Streams in NodeJS](https://community.risingstack.com/the-definitive-guide-to-object-streams-in-node-js/)
+## Peer-to-Peer
+### libp2p
+* [What is libp2p](https://docs.libp2p.io/concepts/introduction/overview/)
+* [Adressing in libp2p](https://github.com/libp2p/specs/blob/master/addressing/README.md)
+* [PeerIds and keys](https://github.com/libp2p/specs/blob/master/peer-ids/peer-ids.md)
+* [Create a libp2p node](https://curriculum.pl-launchpad.io/curriculum/libp2p/core-concepts/)
+* [Distributed hash table](https://docs.libp2p.io/concepts/appendix/glossary/#dht)
+* [libp2p swarm](https://docs.rs/libp2p/latest/libp2p/swarm/index.html)
+* [Chat example](https://github.com/libp2p/rust-libp2p/blob/master/examples/chat-example/src/main.rs)
+* [Ping example](https://github.com/gruberb/libp2p-rs-ping/blob/main/src/main.rs)
